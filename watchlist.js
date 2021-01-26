@@ -1,9 +1,9 @@
 var watchlistStocks = [];
 //GET Watchlist
 
-fetch('https://api.tdameritrade.com/v1/accounts/498181853/watchlists/1397828776', {
+fetch('https://api.tdameritrade.com/v1/accounts/##########/watchlists/1397828776', {
     headers: {
-        authorization: 'Bearer HIYLUxmiWuTPAdLg4AyhV6PRQcRF6MNehXFYOQQ0BuRII3OAqTbPO6kRVnflIkGgYshcKU+wqt5CQ6I7/PM/4i28oKyaN5KZldU+T8LbDn4r9RC5820sav/4a1Ykvjmhw7LCe7TXY08a9/1CUpBW68bs//k0lw5LCVeLVzljCS+EHdcFzZCEAm1Qlsdqwcz+vD1tcrqoZMzkA+Fnoly9VttK9ojDkid+YTlDqMJD+Dw6kB+uG98YvKr7HW1ZQLuvwivwn80a9BUNkMyazGFrr6wIs7Dcgdl+KWDYWhiAo1XSGNLsg8inLIvGV2y6yrR+mNXaYz2qb68IpbFD/4wixXvQ6FJFgY6pmL98oVE0lyputWNJFG8asVBTl5GrgmvCWK0XaPHZGJwyeYjfXp3C2XPIDiGP2TS6C+reg5JWVeBa/kJljSpx6jOapHpSDzwVwBBaQ5jzYgm+ldZqEnFXtknjr34hzXv3aWNWHypHg+n2wyGMr82bFmO9Ks1hm6DFfpPYlAQRlPmDoxp6pOfwbgyy4S+mpWZS89BohdLkLcRfEUBedaqDnWQG1fY100MQuG4LYrgoVi/JHHvl5/J+AhXIzQoIDQmwocYprhgb8+L0nHtOKI5FYGB1d4UEBIEZDN3nefok1zfGJQdBLHZSoEbTBZN5uoJbH89Bhf/G458XI+wwHzNZMR3iTkWpu735rTaWaYlhWm3VYd2E6Gn1Vxv+UvcnPE3vZctFcvNK/bjHVVJF4SKqXVl0rBpeaPYhRHvOkdAvVG+dPOPq4x2hS5pXAlKgr/3DqIlgIZ6q+QrPNb0FZx0hF0Dd/gX9wYS/KjQy9sOpgyrdnRXHr6muwtE0H6e/B8Dy7stZJzDSzdUSONXoNSElmUkMsyjhgRwq+xkYv/XRCxkFuyWHIy7jfvHfsD/ZvnmLtWUpp2CoR/INvXzZrlt3LdJbFMWBGiJMqgrQ9/YfkXmUJdI2Ub5n2NsEDryIHpnPTH/h4yi+NVVHBAhcYReN3I9Z7+JJ+o607zYCbr4bEU3IysaubSrxT6KztVhfgFi8wRPLYrMDBAZ5p3A7RP4FMCuNkJaRVx/A15p1U9U9Db+vLq7f/aKQK6f5C4EPw6zqyQDGON9+wqeQdBbex+47mmkl82CsUhNtCbWjxQckMso=212FD3x19z9sWBHDJACbC00B75E'
+        authorization: 'Bearer '
     }
 })
     .then(res => {
@@ -35,7 +35,7 @@ fetch('https://api.tdameritrade.com/v1/accounts/498181853/watchlists/1397828776'
 // {
 // "name": "DEG Watchlist",
 // "watchlistId": "1397828776",
-// "accountId": "498181853",
+// "accountId": "XXXXXXXXXX",
 // "watchlistItems": [
 //   {
 //     "sequenceId": 1,
