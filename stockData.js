@@ -1,10 +1,10 @@
 var currentStocks = [];
 
-//Getting all positions and info in account, need Bearer token.  Accts 498181853 & 232010200
+//Getting all positions and info in account, need Bearer token.
 //To get both accounts data, remove /acctnumber
-fetch('https://api.tdameritrade.com/v1/accounts/498181853?fields=positions', {
+fetch('https://api.tdameritrade.com/v1/accounts/#####?fields=positions', {
     headers: {
-        authorization: 'Bearer 1cmRec3WhicSJWufy1mV2sXmra2H0M+x9/joC1KuDkLIlGUgGFbAFRUZO7m1uYGn72GucDlGGXvS/B0U9i33NdOyhfINE1CjQ0cJ8QEmFpDw5Zi5SKFDKRDrlj7m8zBUBxB8jCYHOWYB/7tcjTBWEU6fVu9lnNMVr+Ib441zljGl25o6HZPUzTjYiR67tqCK7l4+uljCzW5TGiDMqSHKAWETY4Js5r4E4vzn2iJFGy3CAOYZ+VAAUT0Sa2xgwuKPKlKtTKS05Bty0qFMgpN3q2jCqfsfDPBc9V2XA8kQJHOmUBJ5xMbrqoun3dckstTwmcbmS3JONNJjXttuaesTL0sQ4hojn8xIKpgPPpb5cIjHO6t3AbA29SZ7EgRbmls5SeGpyNeScKJW90INX1UZwubnp+8AWiNQoLn/h9kyz/pK38OgpHOFPrcNT4XVlKH86A4s7PhwWnviFDlHWTgRC2rpCu7WFX1AJiWaWZeW7NeLiKlJUXq2V/ssRb42EG8322fEXnBTc5cRKt2oC4H1U7Wx/PI5cNlNvIBDVntdUchCYad3Fx99t6AFkRl100MQuG4LYrgoVi/JHHvlIK8zLXQ6mEsWjolfgdAzbCKffonREPnMPu2E1jeIy0rQwkwyRXqByT5omy0Wm2CEbuleQKTO9t4T9V9PoL2qIk+ZRmAm8dl2O9hOHJoN/78JvdNDJwqEZBTe8kSluGQVjidS38CRqh1G5G1iiQTgQM0FjWBqS3StPQcSaYxKLKg/pLrTVkzz7jspSbTQ1ogCJj8Vc7yyYLQC5rdt8KFmALTZFuvWzTk9ZavWJ1HRQe/dGac5lLL9Ge+xymDweHxn9vzIig6xO0rwTOpeDNEbKlmCFS9RehT1ABVGJNQ0M/Qk2EBqi1M1lRlRW3I/sxKUhA0B8jz0CWc/fhpitpRyvi7FJnnzEst72ORBJhGGY2Z4LHXyEutVE6twCWyIcMsFsvmD+9AzN7JX/h/QValavguUFT2Dx/0cpR5DnIWph8r0x6WiVN70UfY1GWDcDokf1CkFHSN06+eW39DB2qq0jtxHh1sqGGsm3WvEQHziu+NEGU9pd17blscS40FXtTj9ax8KTh9xIhcf4ziZtqYo7+ag8l88rXEXfk5SMyYnEnxj4RDoTZBAy7qCWKQ=212FD3x19z9sWBHDJACbC00B75E'
+        authorization: 'Bearer '
     }
 })
     .then(res => {
